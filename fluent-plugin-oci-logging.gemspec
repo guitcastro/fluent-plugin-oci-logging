@@ -12,7 +12,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require_relative 'lib/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fluent-plugin-oci-logging'
+  spec.name          = 'fluent-plugin-oci-logging-fluentd-v1.15'
   spec.version       = OCILogging::VERSION
   spec.authors       = ['OCI Observability Team']
   spec.email         = ['no-reply@support.oracle.com']
