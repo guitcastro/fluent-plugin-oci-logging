@@ -17,6 +17,6 @@ end
 module OCILogging
   MAJOR=1
   MINOR=0
-  PATCH=2
+  PATCH=3
   VERSION = ENV['OCI_LOGGING_GEM_VERSION'] || "#{MAJOR}.#{MINOR}.#{PATCH}"
 end
